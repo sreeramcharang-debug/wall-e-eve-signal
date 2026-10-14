@@ -1,0 +1,46 @@
+{
+  "mission_id": "earth_sector_7",
+  "map": {
+    "width": 4,
+    "height": 4,
+    "start": [0, 0],
+    "blocked": [[1, 1], [2, 2]]
+  },
+  "resources": {
+    "battery": 45,
+    "time_limit": 28
+  },
+  "action_costs": {
+    "move": {"battery": 2, "time": 1},
+    "scan": {"battery": 3, "time": 1},
+    "listen": {"battery": 1, "time": 1},
+    "inspect": {"battery": 2, "time": 1},
+    "recharge": {"battery": 0, "time": 2, "restore": 10},
+    "report": {"battery": 1, "time": 1}
+  },
+  "recharge_stations": [[0, 0]],
+  "statuses": ["operational", "signal_weak", "damaged", "dormant"],
+  "noise": {
+    "scan_range": 1
+  },
+  "hidden": {
+    "eve_location": [3, 1],
+    "eve_status": "signal_weak",
+    "clues": [
+      {
+        "at": [2, 0],
+        "kind": "bootprint",
+        "status_hint": "signal_weak",
+        "reliability": 0.85,
+        "note": "Small tread marks in the dust, heading away from the trash towers."
+      },
+      {
+        "at": [3, 3],
+        "kind": "white_chassis_chip",
+        "status_hint": "signal_weak",
+        "reliability": 0.7,
+        "note": "A scorched EVE-class sensor chip. The plant-signal still pulses faintly."
+      }
+    ]
+  }
+}

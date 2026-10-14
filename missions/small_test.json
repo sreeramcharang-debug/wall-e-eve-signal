@@ -1,0 +1,39 @@
+{
+  "mission_id": "small_test",
+  "map": {
+    "width": 2,
+    "height": 2,
+    "start": [0, 0],
+    "blocked": []
+  },
+  "resources": {
+    "battery": 20,
+    "time_limit": 12
+  },
+  "action_costs": {
+    "move": {"battery": 1, "time": 1},
+    "scan": {"battery": 1, "time": 1},
+    "listen": {"battery": 1, "time": 1},
+    "inspect": {"battery": 1, "time": 1},
+    "recharge": {"battery": 0, "time": 1, "restore": 5},
+    "report": {"battery": 1, "time": 1}
+  },
+  "recharge_stations": [[0, 0]],
+  "statuses": ["operational", "damaged"],
+  "noise": {
+    "scan_range": 1
+  },
+  "hidden": {
+    "eve_location": [1, 1],
+    "eve_status": "damaged",
+    "clues": [
+      {
+        "at": [1, 0],
+        "kind": "scorched_panel",
+        "status_hint": "damaged",
+        "reliability": 0.9,
+        "note": "Heat scoring consistent with a damaged directive module."
+      }
+    ]
+  }
+}
