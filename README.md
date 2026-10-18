@@ -20,19 +20,19 @@ No virtualenv or install step is required.
 
 ## Run a sample mission
 
-```powershell
+```gitbash
 python -m walle_signal missions/earth_sector_7.json
 ```
 
 Write the full JSON report (trace, evidence, estimate) to a file:
 
-```powershell
+```gtibash
 python -m walle_signal missions/earth_sector_7.json --json output/report.json
 ```
 
 A smaller map used by tests:
 
-```powershell
+```gitbash
 python -m walle_signal missions/small_test.json
 ```
 
@@ -40,7 +40,7 @@ python -m walle_signal missions/small_test.json
 
 From the project root:
 
-```powershell
+```gitbash
 python -m unittest discover -s tests -v
 ```
 
