@@ -20,7 +20,7 @@ No virtualenv or install step is required.
 ## Run a sample mission
 
 ```powershell
-python -m walle_signal missions\earth_sector_7.json
+python -m walle_signal missions/earth_sector_7.json
 ```
 
 Write the full JSON report (trace, evidence, estimate) to a file:
