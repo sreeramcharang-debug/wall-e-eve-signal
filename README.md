@@ -26,7 +26,7 @@ python -m walle_signal missions\earth_sector_7.json
 Write the full JSON report (trace, evidence, estimate) to a file:
 
 ```powershell
-python -m walle_signal missions\earth_sector_7.json --json output\report.json
+python -m walle_signal missions/earth_sector_7.json --json output/report.json
 ```
 
 A smaller map used by tests:
