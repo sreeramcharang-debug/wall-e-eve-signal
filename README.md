@@ -8,11 +8,11 @@ The controller is deliberately simple: greedy action scoring plus Bayesian belie
 
 - Python 3.10+
 - Standard library only (no pip packages, no paid APIs)
-- Paste these codes in gitbash
+- Gitbash
 
 ## Setup
 
-```powershell
+```gitbash
 cd walle-eves-signal
 ```
 
