@@ -32,7 +32,7 @@ python -m walle_signal missions/earth_sector_7.json --json output/report.json
 A smaller map used by tests:
 
 ```powershell
-python -m walle_signal missions\small_test.json
+python -m walle_signal missions/small_test.json
 ```
 
 ## Automated tests
