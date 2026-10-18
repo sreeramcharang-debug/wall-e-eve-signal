@@ -12,7 +12,7 @@ The controller is deliberately simple: greedy action scoring plus Bayesian belie
 ## Setup
 
 ```powershell
-cd C:\Users\chait\walle-eves-signal
+cd C:\Users\chait\cd walle-eves-signal
 ```
 
 No virtualenv or install step is required.
